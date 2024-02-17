@@ -1,0 +1,10 @@
+.pdfContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.pdfContent {
+  border: none;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,35 @@
+
+
+.list {
+  display: flex;
+  list-style: none;
+  max-height: 600px;
+  width: 80%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 8px 0px;
+  flex: 0 0 600px;
+  margin: 0 auto;
+}
+
+.list li {
+  float: left;
+  padding: 4%;
+}
+
+/* Make scrollbar end */
+.list li:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .list li {
+    padding: 10%;
+  }
+
+  .img {
+    max-height: auto;
+    max-width: auto;
+    vertical-align: middle;
+  }
+}

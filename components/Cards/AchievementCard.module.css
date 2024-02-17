@@ -1,0 +1,60 @@
+.fragment {
+}
+
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 5%;
+  background-color: #034A72;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  text-align: center;
+}
+
+.list {
+
+  font-family: 'Lato', sans-serif;
+  list-style: none;
+  text-align: center;
+}
+
+.image {
+  max-width: 400px;
+  max-height: 400px;
+  padding: 2%;
+}
+
+.name {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 3%;
+}
+
+@media screen and (max-width: 600px) {
+  .image {
+    max-width: 250px;
+    max-height: 250px;
+    padding: 2%;
+    padding-top: 0px;
+  }
+  
+  .name {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 3%;
+    padding-bottom: 0px;
+  }
+}
